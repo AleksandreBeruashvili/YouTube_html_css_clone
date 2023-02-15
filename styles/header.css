@@ -1,0 +1,159 @@
+
+.header{
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    z-index: 100;
+}
+
+
+.left-section{
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 16px;
+}
+.hamburger-menu-but{
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    margin-right: 10px;
+}
+.hamburger-menu-but:hover{
+    background-color: rgb(216, 213, 213);
+}
+.hamburger-menu{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+.youtube{
+    font-weight: bold;
+    margin-top: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+
+.middle-section{
+    flex: 1;
+    max-width: 650px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.search-but{
+    width: 100px;
+    height: 40px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    margin-right: 15px;
+    border-radius: 5px;
+    z-index: 1;
+    border-radius: 50px;
+    margin-left: -50px;
+    padding-left: 45px;
+    border-color: grey;
+}
+
+.search{
+    flex: 1;
+    height: 36px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    padding-left: 10px;
+    width: 0;
+    border-radius: 5px;
+    z-index: 2;
+    cursor: pointer;
+    
+}
+.voice-but{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+   
+}
+.voice-but:hover{
+    background-color: rgb(216, 213, 213);
+}
+.search::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+}
+.search-img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+
+
+.right-section{
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 24px ;
+    flex-shrink: 0;
+}
+.upload-but{
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.upload-but:hover{
+    background-color: rgb(216, 213, 213);
+}
+.upload{
+    width: 24px;
+    height: 24px;
+}
+.not-but{
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.notifications{
+    width: 24px;
+    height: 24px;
+}
+.not-but:hover{
+    background-color: rgb(216, 213, 213);
+}
+.my-picture-but{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.my-picture{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.my-picture:hover{
+    background-color: rgb(216, 213, 213);
+}

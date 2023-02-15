@@ -1,0 +1,53 @@
+
+.home-dev,.sub-div,.librery-div,.music-div,.explore-div,.youtube{
+    position: relative;
+}
+.home-dev .tooltip,.sub-div .tooltip,.librery-div .tooltip,.music-div .tooltip,.explore-div .tooltip{
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 15px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+    margin-bottom: 32px;
+    margin-left: 50px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.home-dev:hover .tooltip,.sub-div:hover .tooltip,.librery-div:hover .tooltip,.music-div:hover .tooltip,.explore-div:hover .tooltip,.youtube:hover .tooltip{
+    opacity: 1;
+}
+
+
+
+.search-but,.voice-but,.upload-but,.not-but{
+    position: relative;
+}
+.search-but .tooltip,.voice-but .tooltip,.upload-but .tooltip,.not-but .tooltip{
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.search-but:hover .tooltip,.voice-but:hover .tooltip,.upload-but:hover .tooltip,.not-but:hover .tooltip{
+    opacity: 1;
+}

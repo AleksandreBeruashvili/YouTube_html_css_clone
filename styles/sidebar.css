@@ -1,0 +1,101 @@
+
+
+.sidebar{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    top: 45px;
+    left: 0;
+    width: 85px;
+    justify-content: space-between;
+    padding-top: 40px;
+    z-index: 100;
+}
+
+
+.home-dev{
+    width: 72px;
+    height: 74px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.home{
+    width: 26px;
+    height: 26px;
+}
+.home-p{
+    margin-top: 0;
+}
+.home-dev:hover{
+    background-color: rgb(216, 213, 213);
+}
+.sub-div{
+    width: 72px;
+    height: 74px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sub{
+    width: 26px;
+    height: 26px;
+}
+.sub-p{
+    margin-top: 0;
+}
+.sub-div:hover{
+    background-color: rgb(216, 213, 213);
+}
+.librery-div{
+    width: 72px;
+    height: 74px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.librery{
+    width: 26px;
+    height: 26px;
+}
+.lib-p{
+    margin-top: 0;
+}
+.librery-div:hover{
+    background-color: rgb(216, 213, 213);
+}
+.music-div{
+    width: 72px;
+    height: 74px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.music{
+    width: 26px;
+    height: 26px;
+}
+.music-p{
+    margin-top: 0;
+}
+.music-div:hover{
+    background-color: rgb(216, 213, 213);
+}
+.explore-div{
+    width: 72px;
+    height: 74px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.explore{
+    width: 26px;
+    height: 26px;
+}
+.explore-p{
+    margin-top: 0;
+}
+.explore-div:hover{
+    background-color: rgb(216, 213, 213);
+}
